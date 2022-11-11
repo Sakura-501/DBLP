@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QDialog" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>414</width>
+    <height>361</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/new/prefix1/images/2.png);</string>
+  </property>
+  <widget class="QPushButton" name="fuzz">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>190</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/prefix1/images/.png);</string>
+   </property>
+   <property name="text">
+    <string>模糊搜索</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="menuquit">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>320</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/prefix1/images/.png);</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="author">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>120</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/prefix1/images/.png);</string>
+   </property>
+   <property name="text">
+    <string>作者统计</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="more_detail">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/prefix1/images/.png);</string>
+   </property>
+   <property name="text">
+    <string>文章名搜索</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Yearsanalyse">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/prefix1/images/.png);</string>
+   </property>
+   <property name="text">
+    <string>年度热点分析</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="author_work">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>60</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/prefix1/images/.png);</string>
+   </property>
+   <property name="text">
+    <string>作者名搜索</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="show_coauthor">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/prefix1/images/.jpg);</string>
+   </property>
+   <property name="text">
+    <string>作者合作关系</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/prefix1/images/.png);</string>
+   </property>
+   <property name="text">
+    <string>功能大全</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="graph">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/prefix1/images/.png);</string>
+   </property>
+   <property name="text">
+    <string>合作关系图</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cluster_analysis">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>260</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/prefix1/images/);</string>
+   </property>
+   <property name="text">
+    <string>聚团分析</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
