@@ -31,3 +31,5 @@ resource：存放处理后的资源文件
 ​	-cluster：聚团分析结果
 
 Based on Qt 6.2.2 (MSVC 2019, 64 bit)
+
+2022/04-2022/05
